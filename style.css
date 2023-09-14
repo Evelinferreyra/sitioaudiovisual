@@ -11,26 +11,29 @@ header {
     background-color: rgba(56, 74, 233, 0.514);
     color: #fff;
     text-align: center;
-    padding: 40px 0;
-}
-
-header h1 {
-    margin: 0;
-}
-
-header nav ul {
-    list-style: none;
     padding: 0;
 }
 
-header nav ul li {
-    display: inline;
-    margin-right: 20px;
+.head-content{
+    align-items: center;
+    padding: 20px;
 }
 
-header nav ul li a {
-    text-decoration: none;
-    color: #fff;
+header img {
+    display: flex;
+    width: 100px;
+    margin-left: 20px;
+}
+
+header h1{
+    display: contents;
+    text-align: center;
+    line-height: 1;
+    margin: 0;
+}
+
+.dividor{
+   border-top: 2px solid #4b81f5;
 }
 
 
@@ -54,9 +57,39 @@ h2 {
 }
 
 
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; 
+    gap: 10px; 
+}
+
+.button {
+    background-color: transparent;
+    border: 2px solid #3498db;
+    color: #f9fcfd;
+    padding: 8px 16px;
+    border-radius: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #3498db;
+    color: #fff;
+    border-color: #3498db;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 10px; 
+}
+
 footer {
+    text-align: center;
     background-color: rgba(56, 74, 233, 0.514);
     color: #fff;
-    text-align: center;
     padding: 10px 0;
 }
